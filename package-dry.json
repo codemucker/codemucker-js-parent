@@ -10,8 +10,8 @@
   "scripts": {
     "postinstall": "",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
-    "preversion": "npm run lint",
+    "prepublishOnly": "pnpm test && pnpm run lint",
+    "preversion": "pnpm run lint",
     "postversion": "git push && git push --tags",
     "release": "pnpm release:patch",
     "release:patch": "pnpm run build && pnpm test && npm version patch && git push && git push --tags && pnpm publish --access public",
