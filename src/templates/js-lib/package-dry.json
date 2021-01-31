@@ -1,0 +1,16 @@
+{
+  "dry": {
+    "extends": "../parent/js-package-dry.json"
+  },
+  "name": "@codemucker/{{PKG_NAME}}",
+  "description": "{{PKG_DESC}}",
+  "version": "0.0.1",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:codemucker/codemucker-js-{{PKG_NAME}}.git"
+  },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
